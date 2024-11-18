@@ -8,7 +8,7 @@ import {toast} from 'react-toastify';
 
 const Contact = () => {
   const {menu} = useContext(Store);
-  const url = "http://localhost:5000";
+  const url = "https://manju-digital-resume-back.vercel.app";
   const [data,setData] = useState({
     name:'',
     email:'',
