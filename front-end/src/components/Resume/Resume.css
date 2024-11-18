@@ -367,7 +367,7 @@
   }
   .line1{
     left: 1.7%;
-    height: 190px;
+    height: 200px;
   }
   .line2{
     left: 1.5%;
@@ -377,7 +377,7 @@
 @media(max-width:710px){
   .line1{
     left: 2.2%;
-    height: 190px;
+    height: 200px;
   }
   .line2{
     left: 2%;
@@ -387,7 +387,7 @@
 @media(max-width:600px){
   .line1{
     left: 2.2%;
-    height: 200px;
+    height: 210px;
   }
   .line2{
     left: 2%;
@@ -399,7 +399,7 @@
 
   .line1{
     left: 2.2%;
-    height: 210px;
+    height: 200px;
   }
   .line2{
     left: 2%;
@@ -428,6 +428,6 @@
 @media(max-width:450px){
   .line1{
     left: 2.7%;
-    height: 228px;
+    height: 235px;
   }
 }
