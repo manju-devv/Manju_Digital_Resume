@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 const DBConnect = async () =>{
 try{
-  await mongoose.connect(process.env.MONGO_URI)
+  await mongoose.connect("mongodb+srv://manju:9666702088@cluster0.9btnx.mongodb.net/Resume")
   .then(()=>{
     console.log("db connected")
   }).catch(e=>{
