@@ -1,16 +1,17 @@
 
-import mongoose from "mongoose"
+import mongoose from "mongoose";
 
 const DBConnect = async () =>{
-  await mongoose.connect(process.env.URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+try{
+  await mongoose.connect(process.env.MONGO_URI)
   .then(()=>{
     console.log("db connected")
   }).catch(e=>{
     console.log(e)
     process.exit(1);
   })
+  }catch(e){
+  console.log(e)
+  }
 }
 export default DBConnect;

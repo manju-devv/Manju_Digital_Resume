@@ -35,7 +35,7 @@ const Contact = () => {
   const handlesubmit = async(e) => {
     e.preventDefault()
     try{
-      const response = await axios.post(url+"/feedback",data);
+      const response = await axios.post(url+"/api/feedback",data);
       console.log(response)
       console.log(response.data.success);
       console.log(data)
