@@ -367,7 +367,7 @@
   }
   .line1{
     left: 1.7%;
-    height: 220px;
+    height: 190px;
   }
   .line2{
     left: 1.5%;
@@ -418,7 +418,7 @@
   }
   .line1{
     left: 2.7%;
-    height: 195px;
+    height: 210px;
   }
   .line2{
     left: 2.4%;
@@ -428,6 +428,6 @@
 @media(max-width:450px){
   .line1{
     left: 2.7%;
-    height: 195px;
+    height: 210px;
   }
 }
