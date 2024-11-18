@@ -3,6 +3,6 @@ import feedback from '../controllers/feedBackHandler.js';
 
 const router = express.Router();
 
-router.post('/feedback',feedback)
+router.post('/api/feedback',feedback)
 
 export default router;
