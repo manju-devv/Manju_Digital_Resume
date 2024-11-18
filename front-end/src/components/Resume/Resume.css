@@ -387,7 +387,7 @@
 @media(max-width:600px){
   .line1{
     left: 2.2%;
-    height: 195px;
+    height: 200px;
   }
   .line2{
     left: 2%;
@@ -399,7 +399,7 @@
 
   .line1{
     left: 2.2%;
-    height: 196px;
+    height: 210px;
   }
   .line2{
     left: 2%;
@@ -408,7 +408,7 @@
 
 @media (max-width:550px){
   .line1{
-    height: 195px;
+    height: 200px;
   }
 }
 
